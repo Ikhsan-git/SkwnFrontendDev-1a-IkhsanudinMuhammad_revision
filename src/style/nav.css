@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.logo{
+    width: 20vh;
+}
+
+.icon{
+    width: 40px;
+}
+
+.nav-button{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.b-signup{
+    height: 6vh;
+    background-color: #E5F0B6 !important;
+    border: none !important;
+}
