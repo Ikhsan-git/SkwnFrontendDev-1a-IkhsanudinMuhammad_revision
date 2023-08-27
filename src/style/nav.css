@@ -4,6 +4,13 @@
     box-sizing: border-box;
   }
 
+.nav{
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
 .logo{
     width: 20vh;
 }
@@ -22,4 +29,52 @@
     height: 6vh;
     background-color: #E5F0B6 !important;
     border: none !important;
+}
+
+@media only screen and (max-width: 600px){
+
+
+    .logo{
+        width: 15vh;
+    }
+
+    .off{
+        border: none !important;
+    }
+
+    .offcanvas{
+        width: 70% !important;
+    }
+
+    .nav{
+        padding-top: 20px !important;
+        padding-bottom: 20px !important;
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    .nav-button{
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 30px;
+    }
+
+    .b-signup{
+        width: 100%;
+        background-color: #E5F0B6 !important;
+        border: none !important;
+    }
+
+    .keranjang{
+        width: 100%;
+        background-color: #553b33;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 6px;
+    }
 }

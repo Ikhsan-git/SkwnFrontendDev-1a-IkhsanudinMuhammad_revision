@@ -13,18 +13,18 @@ function OffcanvasExample() {
   return (
     <>
       {['lg'].map((expand) => (
-        <Navbar key={expand} expand={expand} fixed='top' className=" nav bg-white pb-3 pt-3 ps-5">
+        <Navbar key={expand} expand={expand} fixed='top' className=" nav bg-white">
           <Container fluid>
             <Navbar.Brand href="#"><Image className='logo' src={logo} alt='logo'/></Navbar.Brand>
-            <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
-            <Navbar.Offcanvas
+            <Navbar.Toggle className='off' aria-controls={`offcanvasNavbar-expand-${expand}`} />
+            <Navbar.Offcanvas className='offcanvas'
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  Offcanvas
+                  Dekoor
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
@@ -42,9 +42,11 @@ function OffcanvasExample() {
                   <Nav.Link href="#action1">Partnership</Nav.Link>
                   <Nav.Link href="#action1">Contact</Nav.Link>
                 </Nav>
-                <div className="nav-button pe-5">
+                <div className="nav-button">
                     <Button className='b-signup text-black'>Sign Up</Button>
+                    <div className="keranjang">
                     <Navbar.Brand href="#"><Image className='icon' href="#"src={icon} alt='icon'/></Navbar.Brand>
+                    </div>
                 </div>
               </Offcanvas.Body>
             </Navbar.Offcanvas>
