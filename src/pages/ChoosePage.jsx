@@ -1,5 +1,6 @@
 import Choose from "../components/Choose"
 import Partner from "../components/partner"
+import '../style/choosepage.css'
 
 const ChoosePage = () => {
     return(

@@ -1,5 +1,5 @@
 import { Image } from "react-bootstrap"
-import Number from '../assets/number+text.png'
+import Number from '../assets/number + text.png'
 import logo1 from '../assets/Company logo (1).png'
 import logo2 from '../assets/Company logo.png'
 import logo3 from '../assets/Vector (1).png'

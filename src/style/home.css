@@ -25,6 +25,7 @@
 }
 
 .home-right{
+  height: 95vh;
   position: absolute;
   right: 0;
 }
@@ -141,5 +142,14 @@
     background-color: #E5F0B6 !important;
     border-color: 0 !important;
   }
+
+  .info{
+  position: relative;
+  top: -260px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 50px;
+}
   
 }
